@@ -22,7 +22,7 @@ class CalcController {
             this.displayTime = this.currentDate. toLocaleTimeString(this._locale);
 
         }, 1000);
-        addEventListenerAll(element, events,fn ) {
+        addEventListenerAll(element, events,fn ); {
             events.split(" ").forEach(event =>{
 
                 element.addEventListenerAll(event, fn, false);
